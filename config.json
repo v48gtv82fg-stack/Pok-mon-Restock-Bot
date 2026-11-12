@@ -1,0 +1,26 @@
+{
+  "location": {
+    "city": "Troisdorf",
+    "latitude": 50.814,
+    "longitude": 7.157,
+    "radius_km": 50
+  },
+  "interval_minutes": 30,
+  "online_country": "DE",
+  "languages": ["DE", "EN"],
+  "retailers": [
+    "Amazon",
+    "Smyths Toys",
+    "MediaMarkt",
+    "Saturn",
+    "Müller",
+    "Thalia"
+  ],
+  "alerts": {
+    "restock": true,
+    "out_of_stock": true,
+    "quantity_change": true,
+    "uvp_deals": true,
+    "amazon_invites": true
+  }
+}
