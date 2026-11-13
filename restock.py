@@ -156,7 +156,7 @@ def main():
             new[url] = current
 
         except Exception as error:
-            print(name, type(error).__name__)
+            print(name, type(error).__name__, str(error))
 
     STATE.write_text(
         json.dumps(new, indent=2, ensure_ascii=False)
